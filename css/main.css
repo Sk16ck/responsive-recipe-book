@@ -1,12 +1,22 @@
+html {
+  font-family: "cresta", sans-serif;
+  font-weight: 400;
+}
+
 .action-card {
   border-radius: .3em;
   overflow: hidden;
   box-shadow: 0 .1em .4em rgba(0, 0, 0, 0.5);
 }
 
+.action-card :hover {
+  color: rgba(0,0,0,0.4);
+}
+
 .navbar {
   overflow: hidden;
   background-color: #000;
+  text-align: center;
 }
 
 .navbar a {
@@ -42,6 +52,10 @@
   color: #fff;
   border-radius: 0;
   border: none;
+}
+
+a.btn :hover {
+  color: #000;
 }
 
 .dropdown {
@@ -92,4 +106,37 @@
   background-size: 2px 5px, 2px 5px, 18px auto;
   background-repeat: repeat-x, repeat-x, repeat;
   background-position: left top, left bottom, left top;
+}
+
+/* Affects Headers */
+
+h1, h2, h3 {
+  font-family: cresta,sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  font-family: kepler-std-condensed-display, serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding-bottom: 10px;
+  max-width: 30em;
+  line-height: normal;
+}
+
+article > a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+.decorative {
+  font-family: bickham-script-pro-3, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
